@@ -1,0 +1,16 @@
+GET http://localhost:5000/api/books
+
+###
+POST http://localhost:5000/api/books
+content-type: application/json 
+
+    {
+        "bookName":"Cinderella",
+        "authorName":"J.K Rowling",
+        "authorAge":"30",
+        "genre":"Fantasy"
+    }
+
+###
+GET  http://localhost:5000/api/books/63512b6a2197884e179ce4bc
+
