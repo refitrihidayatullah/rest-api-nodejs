@@ -9,6 +9,16 @@ GET https://app-rest-api-books.herokuapp.com/api/books
 
 POST https://app-rest-api-books.herokuapp.com/api/books
 
+example
+content-type: application/json
+
+    {
+        "bookName":"Cinderella",
+        "authorName":"J.K Rowling",
+        "authorAge":"30",
+        "genre":"Fantasy"
+    }
+
 <!-- get by id -->
 
 GET https://app-rest-api-books.herokuapp.com/api/books/id
